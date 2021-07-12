@@ -1,21 +1,21 @@
 const BLOG = {
-  title: '博客测试',
-  author: 'yh',
+  title: '月寒博客',
+  author: '月寒',
   email: 'ahiansong@gmail.com',
   link: 'https://n.jsjs.cf',
-  description: 'base on notion.',
+  description: '月寒的博客，使用notion存储、vercel部署.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP']
-  appearance: 'auto', // ['light', 'dark', 'auto'],
+  appearance: 'dark', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2021, // if leave this empty, current year will be used.
   postsPerPage: 10,
-  sortByDate: true,
+  sortByDate: false,
   showAbout: true, // WIP
   showArchive: true, // WIP
-  autoCollapsedNavBar: true, // the automatically collapsed navigation bar
+  autoCollapsedNavBar: false, // the automatically collapsed navigation bar
   socialLink: 'https://twitter.com/ahian',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
